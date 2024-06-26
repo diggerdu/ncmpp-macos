@@ -3,10 +3,10 @@ CXX = g++
 
 # Compiler flags
 CXXFLAGS = -Wall -Wextra -std=c++17
-LDFLAGS = -L./ncmlib -lncmlib -lssl -lcrypto
+LDFLAGS = -L./ncmlib -L/opt/homebrew/Cellar/openssl@3/3.3.1/lib -lncmlib -lssl -lcrypto
 
 # Include directories
-INCLUDES = -I./ncmpp/include -I./ncmlib/include
+INCLUDES = -I./ncmpp/include -I./ncmlib/include -I/opt/homebrew/Cellar/openssl@3/3.3.1/include
 
 # Source files
 SOURCES_NCMPP = $(wildcard ncmpp/src/*.cpp)
