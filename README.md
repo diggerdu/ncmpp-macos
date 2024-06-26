@@ -5,7 +5,9 @@
 建议使用带有图形界面的版本：[ncmppGui](https://github.com/Majjcom/ncmppGui)
 
 ## 使用方法
-
+### Compling on MacOs
+brew install openssl
+make all
 ### 快速开始
 
 - 下载`Release`中最新版本的可执行文件
